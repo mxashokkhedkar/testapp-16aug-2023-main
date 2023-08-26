@@ -1,7 +1,7 @@
 function setFocus(element) {
     clearSelection();
     element.focus();
-    selectText(element);
+    selectText(element); 
 }
 function clearSelection() {
     // This is necessary for IE and Edge
